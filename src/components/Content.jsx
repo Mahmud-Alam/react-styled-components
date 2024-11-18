@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function Content() {
+export default function Content({children}) {
   return (
-    <div>Content</div>
+    <div className='content'>{children}</div>
   )
 }

@@ -19,3 +19,10 @@ export const CardContainer = styled.div`
   display: flex;
   align-items: center;
 `;
+
+export const ContentContainer = styled.div`
+  width: 215px;
+  position: absolute;
+  left: 20px;
+  z-index: 3;
+`;
