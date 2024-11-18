@@ -10,7 +10,7 @@ export default function Card() {
   return (
     <CardContainer>
       <ContentContainer>
-        <Tag>Exclusive</Tag>
+        <Tag color="#4361ee">Exclusive</Tag>
         <h1>React Styled Components</h1>
         <p>Exclusive React JS Tutorial on Styled Components where you will learn why we need this & how to use it.</p>
         <div className="buttons">

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Tag = styled.span`
   display: inline-block;
   color: #fff;
-  background: #4361ee;
+  background: ${(props) => props.color};
   margin-bottom: 10px;
   padding: 5px 10px;
   border-radius: 50px;
