@@ -1,4 +1,3 @@
-import './App.css'
 import Tutorial from './components/Tutorial'
 
 function App() {
