@@ -15,8 +15,8 @@ export default function Card() {
         <H1><StyledTitle text="React Styled Components" color="#fff"/></H1>
         <P>Exclusive React JS Tutorial on Styled Components where you will learn why we need this & how to use it.</P>
         <ButtonContainer>
-          <Button link="https://lwsbd.link/rsc" text="Watch now" />
-          <Button link="https://lwsbd.link/react" text="Github-repo" />
+          <Button link="https:mahmudalam.com" text="Watch now" />
+          <Button link="https://github.com/Mahmud-Alam/react-styled-components" text="Github-repo" />
         </ButtonContainer>
       </ContentContainer>
       <Image src={nerdImage} alt="Nerd" width="300px"/>

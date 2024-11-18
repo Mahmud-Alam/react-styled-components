@@ -14,16 +14,16 @@ export const CardContainer = styled.div`
   position: relative;
   background: #1e1e1e;
   height: 350px;
-  width: 550px;
+  width: 560px;
   overflow: hidden;
   display: flex;
   align-items: center;
 `;
 
 export const ContentContainer = styled.div`
-  width: 215px;
+  width: 240px;
   position: absolute;
-  left: 20px;
+  left: 30px;
   z-index: 3;
 `;
 
@@ -31,16 +31,18 @@ export const ButtonContainer = styled.button`
   width: fit-content;
   height: fit-content;
   margin-top: 10px;
+  background: #1e1e1e;
+  border: none;
 
   & a {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    font-size: 11px;
+    font-size: 13px;
     color: #aaa;
     text-decoration: none;
     padding: 10px 15px;
-    border: 1px solid #333;
+    border: 2px solid #333;
     font-weight: bold;
 
     &:after {
@@ -69,7 +71,7 @@ export const ButtonContainer = styled.button`
     }
 
     &:nth-of-type(1) {
-      border-radius: 50px 0 50px;
+      border-radius: 50px 0 0 50px;
       border-right: none;
     }
 

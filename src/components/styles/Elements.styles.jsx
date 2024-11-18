@@ -7,7 +7,7 @@ export const Tag = styled.span`
   margin-bottom: 10px;
   padding: 5px 10px;
   border-radius: 50px;
-  font-size: 0.7em;
+  font-size: 0.8em;
 `;
 
 export const H1 = styled.h1`
@@ -16,8 +16,8 @@ export const H1 = styled.h1`
 
 export const P = styled.p`
   width: 280px;
-  font-size: 13px;
-  line-height: 1.4;
+  font-size: 15px;
+  line-height: 1.5;
   color: #aaa;
   margin: 20px 0;
 `;
