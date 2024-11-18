@@ -20,6 +20,10 @@
   position: relative;
 }
 
+h1 {
+  color: #fff;
+}
+
 p {
   width: 280px;
   font-size: 13px;
@@ -39,24 +43,34 @@ p {
 }
 .buttons {
   width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
 }
 
-img {
+.buttons a {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  font-size: 11px;
+  color: #aaa;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid #333;
+  font-weight: bold;
+}
+
+.buttons a:after {
+  content: "";
   position: absolute;
-  top: 30px;
-  right: -20px;
-  z-index: 0;
-}
-
-.content {
-  width: 215px;
-  position: absolute;
-  left: 20px;
-  z-index: 3;
-}
-
-h1 {
-  color: #fff;
+  top: 0;
+  right: -10px;
+  width: 0%;
+  background: #262626;
+  height: 100%;
+  z-index: -1;
+  transition: width 0.3s ease-in-out;
+  transform: skew(-25deg);
+  transform-origin: right;
 }
 
 .buttons a:hover {
@@ -77,4 +91,18 @@ h1 {
 
 .buttons a:nth-of-type(2) {
   border-radius: 0px 50px 50px 0;
+}
+
+img {
+  position: absolute;
+  top: 30px;
+  right: -20px;
+  z-index: 0;
+}
+
+.content {
+  width: 215px;
+  position: absolute;
+  left: 20px;
+  z-index: 3;
 }
