@@ -1,14 +1,16 @@
-import Tutorial from './components/Tutorial'
-import GlobalStyle from './components/styles/Global.styles'
+import Tutorial from "./components/Tutorial";
+import GlobalStyle from "./components/styles/Global.styles";
+// import { ThemeProvider } from "styled-components";
 
 function App() {
-
   return (
     <>
-    <GlobalStyle/>
-    <Tutorial/>
+      <GlobalStyle />
+      {/* <ThemeProvider theme="dark"> */}
+        <Tutorial />
+      {/* </ThemeProvider> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
